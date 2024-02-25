@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 80px;
+    background: #2B3844;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.FS-24px{
+    font-family: nunito sans;
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-family: nunito sans;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+
+.mini_container{
+    margin-top: 79px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 45px 80px;
+    background: #202C36;
+    width: 100%;
+}
+
+form{
+    width: 450px;
+    border-radius: 5px;
+    display: flex;
+    gap: 24px;
+    background: #2B3844;
+    padding: 20px 32px;
+}
+
+input{
+    border: none;
+    outline: none;
+    background: #2B3844;
+    color: white;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mili_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 75px;
+}
+
+.micro_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 264px;
+    height: 336px;
+    background-color: #2B3844;
+    border-radius: 5px;
+    border-top: 5px;
+}
+
+.img-1{
+    border-top: 5px;
+    width: 264px;
+    height: 160px;
+    background-image: url(Germany.svg);
+}
+
+.img-2{
+    width: 264px;
+    height: 160px;
+    background-image: url(America.svg);
+}
+
+.img-3{
+    width: 264px;
+    height: 160px;
+    background-image: url(Brazil.svg);
+}
+
+.img-4{
+    width: 264px;
+    height: 160px;
+    background-image: url(Iceland.svg);
+}
+
+.img-5{
+    width: 264px;
+    height: 160px;
+    background-image: url(Afganistan.svg);
+}
+
+.img-6{
+    width: 264px;
+    height: 160px;
+    background-image: url(Aland\ Islands.svg);
+}
+
+.img-7{
+    width: 264px;
+    height: 160px;
+    background-image: url(Albania.svg);
+}
+
+.img-8{
+    width: 264px;
+    height: 160px;
+    background-image: url(Algeria.svg);
+}
+
+.nano_container{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.FS-18px{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.FS-14px{
+    
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+span{
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 600px) {
+    nav{
+        padding: 30px 15px;
+    }
+    .FS-24px{
+        font-size: 16px;
+    }
+    form{
+        width: 340px;
+        padding: 15px 32px;
+    }
+    .mini_container{
+        margin-top: 70px;
+        padding: 30px 20px;
+        align-items: center;
+    }
+    .micro_container{
+        flex-direction: column;
+        gap: 40px;
+    }
+}
